@@ -24,7 +24,7 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
-		.paper p, li{
+		.paper>p{
 			text-align: justify;
 			text-indent: 1cm;
 		}
@@ -49,10 +49,12 @@
     		float: left; 
 		}
 		pre{
+			text-indent: 0;
 			min-width: 250px;
 			margin: 10px;
-			padding: 10px 40px 10px 40px;
-			background-color: #EEEEEE;
+			padding: 5px 5px 5px 5px;
+			color: #74e83f;
+			background: #2E2E2E;
 			font-weight: 600;
 			font-size: 16px;
 			border-top: 1px solid black;
