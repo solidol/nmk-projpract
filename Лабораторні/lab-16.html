@@ -16,11 +16,38 @@
 		<h3>Команди TortoiseSVN:</h3>
 		<ol>
 		
-			<li><p>Вийняти: <code>svn checkout [-depth ARG] [--ignore-externals] [-r rev] URL ШЛЯХ</code></p></li>
-			<li><p>Оновити: <code>svn info URL_рабочої_копії; svn update [-r rev] ШЛЯХ</code></p></li>
+			<li><p>Вийняти: <code>svn checkout [-depth ARG] [--ignore-externals] [-r rev] URL ШЛЯХ</code></p>
+<pre>
+$ svn checkout https://github.com/solidol/NMKD_IZVP/
+A    NMKD_IZVP\branches
+A    NMKD_IZVP\branches\BogdanGaybura-patch-1
+A    NMKD_IZVP\branches\BogdanGaybura-patch-1\README.md
+A    NMKD_IZVP\branches\BogdanGaybura-patch-1\Дидактичні
+A    NMKD_IZVP\branches\BogdanGaybura-patch-1\Дидактичні\list.txt
+...
+A    NMKD_IZVP\trunk\Самостійні\list.txt
+Checked out revision 54.
+</pre>
+			</li>
+			<li><p>Оновити: <code>svn info URL_рабочої_копії; svn update [-r rev] ШЛЯХ</code></p>
+<pre>
+$ svn info	
+Path: .
+Working Copy Root Path: E:\NMKD\NMKD_IZVP
+URL: https://github.com/solidol/NMKD_IZVP
+Relative URL: ^/
+Repository Root: https://github.com/solidol/NMKD_IZVP
+Repository UUID: 029f97c0-4227-030f-9c6a-ce57b7db7bff
+Revision: 54
+Node Kind: directory
+Schedule: normal
+Last Changed Author: solidol
+Last Changed Rev: 54
+Last Changed Date: 2020-11-26 15:16:10 +0200 (×ò, 26 Ëèñ 2020)	
+</pre>
+
+			</li>
 			<li><p>Відгалуження / Мітка: <code>svn copy -m "Повідомлення Журналу" URL URL</code></p></li>
-			<li><p>Експорт: <code>svn export [-r rev] [--ignore-externals] URL ШЛЯХ_ЕКСПОРТУ</code></p></li>
-			<li><p>Імпорт: <code>svn import -m Повідомлення Журналу ШЛЯХ URL</code></p></li>
 			<li><p>Видалити: <code>svn delete ШЛЯХ</code></p></li>
 			<li><p>Перейменувати: <code>svn rename ПОТОЧНИЙ_ШЛЯХ НОВИЙ_ШЛЯХ</code></p></li>
 			<li><p>Злиття: <code>svn merge [--dry-run] --force От_URL@revN До_URL@revM ШЛЯХ</code></p></li>
@@ -31,9 +58,9 @@
 		<ol>
 			<li>Перейти на сайт завантаження TortoiseSVN</li>
  			<li>Завантажити та встановити на комп'ютер графічну оболонку TortoiseSVN. В разі необхідності перезавантажити комп'ютер</li>
- 			<li>Перевірити наявність в контекстному меню Windows пунктів TortoiseSVN</li>
+ 			<li>Перевірити дієздатність консольної команди <code>svn -h</code></li>
  			<li>
- 				<p>За допомогою графічного інтерфейсу виконати наступні дії</p>
+ 				<p>За допомогою консольного інтерфейсу виконати наступні дії</p>
  				<ol>
  					<li>Клонувати віддалений репозиторій</li>
  					<li>Внести зміни в репозиторій та зафіксувати їх.</li>
@@ -58,7 +85,7 @@
 			<li>Яку команду потрібно використати для порівняння зміненого файлу з його базовою ревізією?</li>
 			<li>Яку кількість повідомлень журналу TortoiseSVN за замовчуванням намагається витягти використовуючи метод --limit?</li>
 			<li>В якому форматі TortoiseSVN створює файл заплатки?</li>
-			<li>Чи має команда "Pедагувати конфлікти" еквівалент в ІКС?</li>
+			<li>Чи має команда "Pедагувати конфлікти" еквівалент в svn?</li>
 		</ol>
 		<h2>Довідники та додаткові матеріали</h2>
 		<ol>
