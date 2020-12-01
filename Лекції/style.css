@@ -17,14 +17,14 @@
 			padding-right: 0;
 		}
 		.paper{
-			background-color: #cffffa;
+			background-color: #cbe3ca;
 			padding: 10px;
 			max-width: 210mm;
 			min-width: 300px;
 			margin-left: auto;
 			margin-right: auto;
 		}
-		.paper>p{
+		.paper p, li{
 			text-align: justify;
 			text-indent: 1cm;
 		}
@@ -49,20 +49,14 @@
     		float: left; 
 		}
 		pre{
-			text-indent: 0;
 			min-width: 250px;
 			margin: 10px;
-			padding: 5px 5px 5px 5px;
-			color: #74e83f;
-			background: #2E2E2E;
-			font-weight: 600;
+			padding: 10px 40px 10px 40px;
+			background-color: #EEEEEE;
+			font-weight: 400;
 			font-size: 16px;
 			border-top: 1px solid black;
 			border-bottom: 1px solid black;
-		}
-		code{
-			font-weight: 900;
-			font-size: 18px;
 		}
 		figure{
 			margin: 30px 0 30px 0;
