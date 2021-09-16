@@ -40,6 +40,45 @@ $ git clone https://github.com/my_name/my_repo
 			</li>
 			<li>Для закріплення клонувати створений раніше репозиторій на Gitlab як локальну робочу копію
 			</li>
+
+<li>
+	<p>
+		Створити публічний ключ SSH для з'єднання з Github по протоколу SSH. Для цього необхідно використати генератор ключів.
+	</p>
+<pre>
+$ ssh-keygen -t key_name -C "your_email@example.com"
+</pre>
+</li>
+<li>
+	<p>
+		Впевнитися, що файли <code>key_name</code> та <code>key_name.pub</code> знаходяться в директорії для ключів за замовчуванням <code>/home/user_name/.ssh</code> (для Unix) або <code>C:/Users/user_name/.ssh</code> (для Windows)
+	</p>
+	<p>
+		Публічний ключ (зміст файлу <code>key_name.pub</code>) скопіювати у форму на Github для збереження за посиланням <code>https://github.com/your_name/keys</code>
+	</p>
+				<figure>
+				<img class="figc" src="img/02-020.png">
+				<figcaption>Сторінка додавання рублічного ключа</figcaption>
+			</figure>
+</li>
+<li>
+<p>
+	Для використання SSH-з'єднання з Github необхідно запустити агента аутентифікації SSH та додати згенерований ключ.
+</p>
+<pre>
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/key_name
+</pre>
+</li>
+<li>
+	<p>Виконати клонування репозиторію за допомогою SSH-з'єднання</p>
+	<pre>
+$ git clone git@github.com:solidol/NMKD_SYSPROG.git		
+	</pre>
+	<p>
+		Можна обрати інший репозиторій. Посилання на завантаження по SHH-каналу знаходиться на стартовій сторінці репозиторію - меню "Code", вкладка "SSH".
+	</p>
+</li>
 			<li>Для кожного етапу роботи зробити знімки екрану або скопіювати текст консолі та додати їх у звіт з описом кожного скіншота</li>
 			<li>Дати відповіді на контрольні запитання</li>
 			<li>Зберегти звіт у форматі PDF</li>
