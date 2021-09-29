@@ -9,12 +9,13 @@
 			font-size: 14pt;
 			font-weight: bold;
 		}
-		p, li{
+
+		p, li, figcaption{
 			font-size: 14pt;
 		}
 		body{
-			padding-left: 0;
-			padding-right: 0;
+			padding: 0;
+			margin: 0;
 		}
 		.paper{
 			background-color: #cffffa;
@@ -23,10 +24,37 @@
 			min-width: 300px;
 			margin-left: auto;
 			margin-right: auto;
+			
 		}
-		.paper>p{
+		.paper p, ol, ul{
 			text-align: justify;
 			text-indent: 1cm;
+		}
+
+		p.notice {
+			margin: 5px;
+			padding: 10px;
+			background-color: #fcf590;
+			font-family: Arial;
+			font-weight: 600;
+			border-left: 2px solid red;
+			color: #420303;	
+			line-height: 120%;	
+			letter-spacing: 0.1em;
+		}
+
+		li{
+			text-indent: 0.2cm;
+		}
+
+		div.content-board{
+			float: right; /* Выравнивание по правому краю */
+			background: #F3F0E9; /* Цвет фона */
+			border: 1px solid #000; /* Параметры границы */
+			padding: 0 10px; /* Поля вокруг картинки */
+			margin: 5px 0px 5px 10px; /* Отступы */
+			width: 50%; /* Ширина */
+			font-size: 0.9em; /* Размер шрифта */
 		}
 		#colontitle{
 			color: grey;
@@ -45,24 +73,22 @@
 		}
 		.col{
 			min-width: 300px;
-		    width: 50%;
-    		float: left; 
+			width: 50%;
+			float: left; 
 		}
 		pre{
-			text-indent: 0;
 			min-width: 250px;
 			margin: 10px;
-			padding: 5px 5px 5px 5px;
-			color: #74e83f;
-			background: #2E2E2E;
+			padding: 10px;
+			background-color: #EEEEEE;
 			font-weight: 600;
 			font-size: 16px;
 			border-top: 1px solid black;
 			border-bottom: 1px solid black;
 		}
 		code{
-			font-weight: 900;
-			font-size: 18px;
+			font-weight: 600;
+			font-size: 18px;			
 		}
 		figure{
 			margin: 30px 0 30px 0;
@@ -89,3 +115,44 @@
 		/* start commented backslash hack \*/
 		* html .clearfix { height: 1%; }
 		.clearfix { display: block; }
+
+		ul{
+			list-style: '-';
+		}
+		ul.lec-menu{
+			display: flex;
+			list-style: none; 
+		}
+		i.formula{
+			font-weight: 400;
+			font-size: 120%; 
+		}
+		i.formula sub, i.formula sup{
+			font-style: normal;
+		}
+
+		figcaption:before{
+			content: 'Рис. ';
+		}
+		td{
+			border: 1px solid black;
+			padding: 5px;
+			
+		}
+		td p{
+			margin: 0;
+			text-indent: 0 !important;
+			text-align: left !important;
+		}
+
+		#head{
+			height: 60px;
+			position: fixed;
+			z-index: 1000;
+			top: 0;
+			width: 100%;
+		}
+		#content{
+			margin-top: 80px;
+		}
+
