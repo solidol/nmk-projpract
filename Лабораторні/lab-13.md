@@ -34,8 +34,8 @@ cd git-merge-test
 git init .
 echo "this is some content to mess with" > merge.txt
 git add merge.txt
-git commit -am"we are commiting the inital content"
-[main (root-commit) d48e74c] we are commiting the inital content
+git commit -am "we are commiting the inital content"
+[master (root-commit) d48e74c] we are commiting the inital content
 1 file changed, 1 insertion(+)
 create mode 100644 merge.txt
 ```
@@ -45,12 +45,12 @@ create mode 100644 merge.txt
 Створюється новий каталог з ім'ям git-merge-test, виконується перехід до цього каталогу та ініціалізація його як нового репозиторію Git.
 Створюється новий текстовий файл merge.txtіз деяким вмістом.
 До репозиторію додається файл merge.txtі виконується коміт.
-Тепер у нас є новий репозиторій з однією гілкою mainта непустим файлом merge.txt. Далі створимо нову гілку, яка буде використовуватися як конфліктуюча при злитті.
+Тепер у нас є новий репозиторій з однією гілкою masterта непустим файлом merge.txt. Далі створимо нову гілку, яка буде використовуватися як конфліктуюча при злитті.
 
 ```bash
 git checkout -b new_branch_to_merge_later
 echo "totally different content to merge later" > merge.txt
-git commit -am"edited the content of merge.txt to cause a conflict"
+git commit -am "edited the content of merge.txt to cause a conflict"
 [new_branch_to_merge_later 6282319] edited the content of merge.txt to cause a conflict
 1 file changed, 1 insertion(+), 1 deletion(-)
 ```
@@ -63,15 +63,15 @@ git commit -am"edited the content of merge.txt to cause a conflict"
 У цій новій галузі new_branch_to_merge_laterми створили комміт, який перевизначив вміст файлу merge.txt.
 
 ```bash
-git checkout main
-Switched to branch 'main'
+git checkout master
+Switched to branch 'master'
 echo "content to append" >> merge.txt
-git commit -am"appended content to merge.txt"
-[main 24fbe3c] appended content to merge.tx
+git commit -am "appended content to merge.txt"
+[master 24fbe3c] appended content to merge.tx
 1 file changed, 1 insertion(+)
 ```
 
-Ця послідовність команд виконує перемикання на гілку main, додає вміст файл merge.txtі робить комміт. Після цього в нашому експериментальному репозиторії знаходяться два нових коміти, перший - у гілці main, а другий - у гілці new_branch_to_merge_later. Тепер запустимо команду git merge new_branch_to_merge_laterта подивимося, що з цього вийде!
+Ця послідовність команд виконує перемикання на гілку master, додає вміст файл merge.txt і робить комміт. Після цього в нашому експериментальному репозиторії знаходяться два нових коміти, перший - у гілці master, а другий - у гілці new_branch_to_merge_later. Тепер запустимо команду `git merge new_branch_to_merge_later` та подивимося, що з цього вийде!
 
 ```bash
 git merge new_branch_to_merge_later
@@ -82,61 +82,41 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 Виник конфлікт. Добре, що система Git повідомила про це нам.
 
-### Команди Git, за допомогою яких можна вирішити конфлікти злиття
+### Етапи вирішення конфліктів
 
-#### Загальні інструменти
+Звертайте увагу на повідомлення про конфлікт в терміналі та відкрийте конфліктний файл у вашому редакторі коду.
 
-```bash
-git status
-```
+У відповідних ділянках конфліктного файлу ви побачите помітки <<<<<<<, =======, і >>>>>>>. Виправте конфлікт, видаливши зайві рядки та залишаючи потрібні зміни. Після вирішення збережіть файл.
 
-Команда status часто використовується під час роботи з Git і допомагає ідентифікувати файли, що конфліктують під час злиття.
+Використовуйте команду `git add` для позначення конфліктного файлу як вирішеного:
 
 ```bash
-git log --merge
+git add merge.txt
 ```
 
-При передачі аргументу --mergeкоманди git logбуде створено журнал зі списком конфліктів коммітів між гілками, котрим виконується злиття.
+Та завершіть злиття:
 
 ```bash
-git diff
+git merge --continue
 ```
 
-Команда diffдопомагає знайти різницю між станами репозиторію/файлів. Вона корисна виявлення і попередження конфліктів злиття.
-
-### Інструменти для випадків, коли Git перериває роботу на початку злиття
-
-```bash
-git checkout
-```
-
-Команда checkoutможе використовуватися для скасування змін у файлах або зміни гілок.
-
-```bash
-git reset --mixed
-```
-
-Команда resetможе використовуватися для скасування змін у робочому каталозі або розділі проіндексованих файлів.
-
-### Інструменти для випадків, коли конфлікти Git виникають під час злиття
+У випадку, якщо вирішення конфлікту необхідно відкласти, то на даному єтапі можливо відмінити злиття гілок:
 
 ```bash
 git merge --abort
 ```
 
-При виконанні команди `git merge --abort` процес злиття буде перервано, а гілка повернеться до стану, в якому вона знаходилася до початку злиття.
+У разі успішного вирішення конфлікту та завершення злиття зафіксуйте новий стан репозиторію:
 
 ```bash
-git reset
+git commit -m "Вирішено конфлікти"
 ```
-
-Команду git resetможна використовувати для вирішення конфліктів, що виникають під час виконання злиття, щоб відновити задовільний стан файлів, що конфліктують.
 
 ## Хід роботи
 
 1.  Перевірити глобальні налаштування Git for Windows
 2.  Для свого репозиторію створити файли та заповнити їх текстовим вмістом, в них в подальшому будуть створені конфлікти
-3.  Зафіксувати зміни. Створити нову гілку.
+3.  Зафіксувати зміни. Створити нову гілку. Назву гілки сформуйте наступним чином: `branchYourLastName1`
 4.  За прикладом наведеним у теоретичних відомостях створити конфлікт злиття
 5.  Вирішити конфлікт
 6.  Для кожного етапу роботи зробити знімки екрану та додати їх у звіт з описом кожного скіншота
