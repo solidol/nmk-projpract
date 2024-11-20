@@ -59,8 +59,9 @@
 
 ## Довідники та додаткові матеріали
 
-1. [Github Desktop](https://desktop.github.com)
-2. [Github Desktop](https://docs.github.com/en/desktop)
+1. [Github Desktop (завантажити)](https://desktop.github.com)
+2. [Github Desktop документація](https://docs.github.com/en/desktop)
 3. [Як почати працювати з Github Desktop](https://htmlacademy.ru/blog/boost/tools/github-desktop)
-4. [Відмінності Github Desktop від Git](https://coderoad.ru/61435843/)
-5. [Переваги Github Desktop](https://habr.com/ru/post/520854/)
+4. [Як встановити та як використовувати GitHub Desktop? (відео)](https://www.youtube.com/watch?v=9oE3RhQRUbE)
+5. [Відмінності Github Desktop від Git](https://coderoad.ru/61435843/)
+6. [Переваги Github Desktop](https://habr.com/ru/post/520854/)
