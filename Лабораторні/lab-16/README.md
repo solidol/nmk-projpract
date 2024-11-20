@@ -8,51 +8,51 @@
 
 ## Теоретичні відомості
 
-![`svn checkout` в контекстному меню](img/lab-16/01-015.png)
+![`svn checkout` в контекстному меню](img/01-015.png)
 
 `svn checkout` в контекстному меню
 
-![`svn checkout` вікно нашалтування](img/lab-16/02-015.png)
+![`svn checkout` вікно нашалтування](img/02-015.png)
 
 `svn checkout` вікно нашалтування
 
-![`svn checkout` вікно результату](img/lab-16/03-015.png)
+![`svn checkout` вікно результату](img/03-015.png)
 
 `svn checkout` вікно результату
 
-![`svn commit` в контекстному меню](img/lab-16/04-015.png)
+![`svn commit` в контекстному меню](img/04-015.png)
 
 `svn commit` в контекстному меню
 
-![`svn commit` вікно нашалтування](img/lab-16/05-015.png)
+![`svn commit` вікно нашалтування](img/05-015.png)
 
 `svn commit` вікно нашалтування
 
-![`svn commit` вікно результату](img/lab-16/06-015.png)
+![`svn commit` вікно результату](img/06-015.png)
 
 `svn commit` вікно результату
 
-![Контестне меню](img/lab-16/07-015.png)
+![Контестне меню](img/07-015.png)
 
 Контестне меню
 
-![Check for modification](img/lab-16/08-015.png)
+![Check for modification](img/08-015.png)
 
 Check for modification
 
-![Merge](img/lab-16/09-015.png)
+![Merge](img/09-015.png)
 
 Merge
 
-![Shelve](img/lab-16/10-015.png)
+![Shelve](img/10-015.png)
 
 Shelve
 
-![Get lock](img/lab-16/11-015.png)
+![Get lock](img/11-015.png)
 
 Get lock
 
-![Update to revision](img/lab-16/12-015.png)
+![Update to revision](img/12-015.png)
 
 Update to revision
 
@@ -62,19 +62,19 @@ Update to revision
 2.  Завантажити та встановити на комп'ютер графічну оболонку TortoiseSVN. В разі необхідності перезавантажити комп'ютер.
     Для цього необхідно: 
     1. Обрати розрядність системи, та натиcнути на завантаження правильного завантажувача.
-   ![](img/lab-16/18-19.jpg)
+   ![](img/18-19.jpg)
     1. Запустити завантажувач `TortoiseSVN`.
-   ![](img/lab-16/18-20.jpg)
+   ![](img/18-20.jpg)
     1. Обрати кнопку *Next*.
-   ![](img/lab-16/18-21.jpg)
+   ![](img/18-21.jpg)
     1. Обрати місце завантаження програми кнопкою *Browse*.
-   ![](img/lab-16/18-22.jpg)
+   ![](img/18-22.jpg)
     1. Обрати пункт *Will be installed on local hard drive* та натиснути *Next*.
-   ![](img/lab-16/18-23.jpg)
+   ![](img/18-23.jpg)
     1. Завантажити програму.
-   ![](img/lab-16/016-013.jpg)
+   ![](img/016-013.jpg)
     1. Натиснути кнопку *Finish*.
-   ![](img/lab-16/016-014.jpg)
+   ![](img/016-014.jpg)
 1.  Перевірити наявність в контекстному меню Windows пунктів TortoiseSVN
 2.  За допомогою графічного інтерфейсу виконати наступні дії
 
