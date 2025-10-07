@@ -4,7 +4,7 @@
 
 Всі матеріали доступні для завантаження та перегляду безпосередньо на GitHub
 
-Автор Левицький Віктор Миколайович
+Автор: Левицький Віктор Миколайович
 
 ## Особиста подяка
 
@@ -44,3 +44,5 @@
 - [ ] Update Перелік джерел.html
 - [ ] Add prettier config
 - [ ] Add Husky + lint-staged for markdownlint + prettier
+- [ ] Move this repo to ХПФК org
+- [ ] Add common template for static generation of several disciplines
