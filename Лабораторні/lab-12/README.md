@@ -69,4 +69,4 @@
 2.  [Розгалуження в Git - Основи розгалуження і злиття](https://git-scm.com/book/ru/v2/Ветвление-в-Git-Основы-ветвления-и-слияния)
 3.  [Про розгалуження в Git](https://ru.hexlet.io/courses/git_base/lessons/introduction_to_git_branches_theory/theory_unit)
 4.  [Видалення гілок  в Git (локальних та віддалених)](https://badcode.ru/kak-udalit-vietku-v-git-lokalnuiu-ili-udalionnuiu/)
-5.  [Злиття гілок в Git](https://deadsith.github.io/2017/01/11/%D0%B7%D0%BB%D0%B8%D1%82%D1%82%D1%8F-%D0%B2%D1%96%D1%82%D0%BE%D0%BA-%D0%B2-git/)
+5.  [Злиття гілок в Git](https://deadsith.GitHub.io/2017/01/11/%D0%B7%D0%BB%D0%B8%D1%82%D1%82%D1%8F-%D0%B2%D1%96%D1%82%D0%BE%D0%BA-%D0%B2-git/)

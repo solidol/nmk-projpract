@@ -39,7 +39,7 @@
 1.  Клонувати (оновити): `svn checkout [-depth ARG] [--ignore-externals] [-r rev] URL ШЛЯХ`
 
 ```bash
-$ svn checkout https://github.com/solidol/NMKD_IZVP/
+$ svn checkout https://GitHub.com/solidol/NMKD_IZVP/
 A    NMKD_IZVP\branches
 A    NMKD_IZVP\branches\BogdanGaybura-patch-1
 A    NMKD_IZVP\branches\BogdanGaybura-patch-1\README.md
@@ -56,9 +56,9 @@ Checked out revision 54.
 $ svn info
 Path: .
 Working Copy Root Path: E:\NMKD\NMKD_IZVP
-URL: https://github.com/solidol/NMKD_IZVP
+URL: https://GitHub.com/solidol/NMKD_IZVP
 Relative URL: ^/
-Repository Root: https://github.com/solidol/NMKD_IZVP
+Repository Root: https://GitHub.com/solidol/NMKD_IZVP
 Repository UUID: 029f97c0-4227-030f-9c6a-ce57b7db7bff
 Revision: 54
 Node Kind: directory

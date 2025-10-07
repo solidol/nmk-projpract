@@ -1,16 +1,16 @@
-# Лабораторна робота №15. Робота з графічним клієнтом Github
+# Лабораторна робота №15. Робота з графічним клієнтом GitHub
 
 [Перелік усіх робіт](README.md)
 
 ## Мета роботи
 
-Отримати навички роботи у графічній оболонці Github
+Отримати навички роботи у графічній оболонці GitHub
 
 ## Теоретичні відомості
 
 Для встановлення на комп'ютер `GitHub Desktop` необідно виконати наступні дії:
 
-1. Перейти на сайт https://desktop.github.com/;
+1. Перейти на сайт https://desktop.GitHub.com/;
 2. Натиснути на кнопку **Download for Windows**:
 
    ![](img/17-15.png)
@@ -32,8 +32,8 @@
 ## Хід роботи
 
 1.  Перевірити глобальні налаштування Git for Windows
-2.  Завантажити та встановити на комп'ютер графічну оболонку Github. В разі необхідності перезавантажити комп'ютер
-3.  Перевірити наявність в контекстному меню Windows пунктів Github
+2.  Завантажити та встановити на комп'ютер графічну оболонку GitHub. В разі необхідності перезавантажити комп'ютер
+3.  Перевірити наявність в контекстному меню Windows пунктів GitHub
 4.  За допомогою графічного інтерфейсу виконати наступні дії
     1.  Клонувати віддалений репозиторій
     2.  Внести зміни в репозиторій та зафіксувати їх.
@@ -52,16 +52,16 @@
 
 ## Контрольні питання
 
-1.  Що таке Github?
-2.  Для чого використовують Github?
-3.  Які вам відомі аналоги Github?
-4.  Чи можливо використати графічний інтерфейс Github для злиття гілок?
+1.  Що таке GitHub?
+2.  Для чого використовують GitHub?
+3.  Які вам відомі аналоги GitHub?
+4.  Чи можливо використати графічний інтерфейс GitHub для злиття гілок?
 
 ## Довідники та додаткові матеріали
 
-1. [Github Desktop (завантажити)](https://desktop.github.com)
-2. [Github Desktop документація](https://docs.github.com/en/desktop)
-3. [Як почати працювати з Github Desktop](https://htmlacademy.ru/blog/boost/tools/github-desktop)
+1. [GitHub Desktop (завантажити)](https://desktop.GitHub.com)
+2. [GitHub Desktop документація](https://docs.GitHub.com/en/desktop)
+3. [Як почати працювати з GitHub Desktop](https://htmlacademy.ru/blog/boost/tools/GitHub-desktop)
 4. [Як встановити та як використовувати GitHub Desktop? (відео)](https://www.youtube.com/watch?v=9oE3RhQRUbE)
-5. [Відмінності Github Desktop від Git](https://coderoad.ru/61435843/)
-6. [Переваги Github Desktop](https://habr.com/ru/post/520854/)
+5. [Відмінності GitHub Desktop від Git](https://coderoad.ru/61435843/)
+6. [Переваги GitHub Desktop](https://habr.com/ru/post/520854/)
