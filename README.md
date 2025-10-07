@@ -16,13 +16,13 @@
 
 ## Робоча програма навчальної дисципліни
 
-[Завантажити](/РПНД ПП 2022.docx)
+[Завантажити](РНПД/РПНД ПП 2022.docx)
 
 ## Зміст
 
 ### Лекції
 
-[До конспекту лекцій](Лекціі)
+[До конспекту лекцій](Лекції)
 
 ### Лабораторні роботи
 
@@ -40,9 +40,7 @@
 
 ## ToDo
 
-- [] Update labs 09-20 (rename + reformat)
-- [] Move images of each lab to labs/img/
-- [] Update Перелік джерел та додаткових матеріалів in each lab
-- [] Update Перелік джерел.html
-- [] Add prettier config
-- [] Add Husky + lint-staged for markdownlint + prettier
+- [ ] Update Перелік джерел та додаткових матеріалів in each lab
+- [ ] Update Перелік джерел.html
+- [ ] Add prettier config
+- [ ] Add Husky + lint-staged for markdownlint + prettier
