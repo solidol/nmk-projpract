@@ -8,11 +8,11 @@
 
 ## Особиста подяка
 
-* Гайбура Б.
-* Плясов Д.
-* Біленька Д.
-* Недашковська К.
-* Воронін В.
+- Гайбура Б.
+- Плясов Д.
+- Біленька Д.
+- Недашковська К.
+- Воронін В.
 
 ## Робоча програма навчальної дисципліни
 
@@ -40,9 +40,9 @@
 
 ## ToDo
 
-* [] Update labs 09-20 (rename + reformat)
-* [] Move images of each lab to labs/img/
-* [] Update Перелік джерел та додаткових матеріалів in each lab
-* [] Update Перелік джерел.html
-* [] Add prettier config
-* [] Add Husky + lint-staged for markdownlint + prettier
+- [] Update labs 09-20 (rename + reformat)
+- [] Move images of each lab to labs/img/
+- [] Update Перелік джерел та додаткових матеріалів in each lab
+- [] Update Перелік джерел.html
+- [] Add prettier config
+- [] Add Husky + lint-staged for markdownlint + prettier
