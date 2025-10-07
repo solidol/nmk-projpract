@@ -41,7 +41,7 @@ $CATEGORY: $course$/top/Опитування 4-01
 // question: 9936 name: OP-04-01-10
 ::OP-04-01-10::Процес фіксації змін у Subversion є атомарною транзакцією{TRUE}
 
-::OP-04-01-11::Github підтримує протокол subversion{TRUE}
+::OP-04-01-11::GitHub підтримує протокол subversion{TRUE}
 
 ::OP-04-01-12::Subversion підтримує тільки текстові файли, і не може працювати з бінарними даними{FALSE}
 

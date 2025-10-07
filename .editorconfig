@@ -1,0 +1,49 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Default settings for all files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown files
+[*.{md,markdown}]
+trim_trailing_whitespace = false
+indent_style = space
+indent_size = 2
+
+# HTML files
+[*.{htm,html}]
+indent_style = space
+indent_size = 2
+
+# Text files
+[*.txt]
+indent_style = space
+indent_size = 2
+
+# Source code files
+[*.{js,py,c,cpp}]
+indent_style = space
+indent_size = 4
+
+# Configuration files
+[*.{json,yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Windows batch files
+[*.{cmd,bat}]
+end_of_line = crlf
+
+# Documentation files in Ukrainian
+[*/Лабораторні/**]
+charset = utf-8
+[*/Лекціі/**]
+charset = utf-8
+[*/Контроль/**]
+charset = utf-8
