@@ -17,24 +17,24 @@
 3. Створити на комп’ютері каталог та розмістити у ньому тексти програм лабораторних робіт з дисципліни «Інструментальні засоби візуального програмування»
 4. Ініціювати репозиторій Git з даного каталогу
 
-    ```bash
-    mkdir izvp_lab_my_lastname
-    cd izvp_lab_my_lastname
-    git init
-    ```
+   ```bash
+   mkdir izvp_lab_my_lastname
+   cd izvp_lab_my_lastname
+   git init
+   ```
 
 5. Додати до репозиторію файли лабораторних робіт
 6. З командного рядка створити та під’єднати віддалений репозиторій на GitHub
 7. Вивантажити локальну робочу копію на GitHub
 
-    ```bash
-    $ git add file1
-    $ git add file2
-    ...
-    $ git commit -m "Message for commit"
-    $ git remote add pb https://GitHub.com/your_name/your_repo
-    $ git push
-    ```
+   ```bash
+   $ git add file1
+   $ git add file2
+   ...
+   $ git commit -m "Message for commit"
+   $ git remote add pb https://GitHub.com/your_name/your_repo
+   $ git push
+   ```
 
 8. Перевірити наявність нових файлів на GitHub через web-інтерфейс
 9. Для кожного етапу роботи зробити знімки екрану або скопіювати текст консолі та додати їх у звіт з описом кожного скіншота
