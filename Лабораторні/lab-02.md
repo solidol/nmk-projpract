@@ -62,7 +62,7 @@ color.diff=auto
    ```bash
    mkdir dir_for_git
    cd dir_for_git
-   git clone https://GitHub.com/my_name/my_repo
+   git clone https://github.com/my_name/my_repo
    ```
 
 7. Способом аналогічним до попереднього пункту клонувати створений раніше репозиторій на Bitbucket як локальну робочу копію
@@ -71,7 +71,7 @@ color.diff=auto
 
 10. Впевнитися, що файли `key_name` та `key_name.pub` знаходяться в директорії для ключів за замовчуванням `/home/user_name/.ssh` (для Unix) або `C:/Users/user_name/.ssh` (для Windows)
 
-    Публічний ключ (зміст файлу `key_name.pub`) скопіювати у форму на GitHub для збереження за посиланням `https://GitHub.com/your_name/keys`
+    Публічний ключ (зміст файлу `key_name.pub`) скопіювати у форму на GitHub для збереження за посиланням `https://github.com/your_name/keys`
 
     ![Сторінка додавання публічного ключа](img/02-020.png)
 
@@ -85,7 +85,7 @@ color.diff=auto
 12. Виконати клонування репозиторію за допомогою SSH-з'єднання
 
     ```bash
-    git clone git@GitHub.com:solidol/NMKD_SYSPROG.git
+    git clone git@github.com:solidol/NMKD_SYSPROG.git
     ```
 
     Можна обрати інший репозиторій. Посилання на завантаження по SHH-каналу знаходиться на стартовій сторінці репозиторію - меню "Code", вкладка "SSH".
@@ -104,9 +104,9 @@ color.diff=auto
 
 ## Довідники та додаткові матеріали
 
-1. [GitHub](https://GitHub.com/)
-2. [GitLab](https://GitLab.com/)
+1. [GitHub](https://github.com/)
+2. [GitLab](https://gitlab.com/)
 3. [Bitbucket.org](https://bitbucket.org/)
-4. [Документація GitHub](https://docs.GitHub.com/)
+4. [Документація GitHub](https://docs.github.com/)
 5. [Генерація вашого публічного ключа SSH](https://git-scm.com/book/uk/v2/Git-%D0%BD%D0%B0-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D1%96-%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%86%D1%96%D1%8F-%D0%B2%D0%B0%D1%88%D0%BE%D0%B3%D0%BE-%D0%BF%D1%83%D0%B1%D0%BB%D1%96%D1%87%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BB%D1%8E%D1%87%D0%B0-SSH)
-6. [Fork a repo](https://docs.GitHub.com/en/get-started/quickstart/fork-a-repo)
+6. [Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
