@@ -23,11 +23,11 @@
    ```bash
    mkdir dir_for_git
    cd dir_for_git
-   git clone https://GitHub.com/my_name/my_repo
+   git clone https://github.com/my_name/my_repo
    ```
 
    - `dir_for_git` - будь-яка директорія для зберігання клонованих репозиторіїв
-   - `https://GitHub.com/my_name/my_repo` - адреса репозиторію на GitHub, який ви копіюєте
+   - `https://github.com/my_name/my_repo` - адреса репозиторію на GitHub, який ви копіюєте
 
 4. Завантажити раніше створений репозиторій з GitHub в архіві. Дослідити зміст клонованих репозиторіїв, розархівованих репозиторіїв зі змістом на сервісі GitHub
 5. Зробити висновок про відмінності у змісті клонованого репозиторію, завантаженого та даних, що відображає веб-інтерфейс
@@ -51,6 +51,6 @@
 
 1. [Что скрывает от нас директория .git](https://habr.com/ru/post/143079/)
 2. [Git всередині: Каталог .git](https://githowto.com/uk/git_internals_git_directory)
-3. [Новий GitHub Desktop](https://o7planning.org/ru/10283/using-GitHub-with-GitHub-desktop#:~:text=GitHub%20Desktop%20это%20визуальный%20инструмент,%3A%2F%2Fdesktop.GitHub.com%2F)
+3. [Новий GitHub Desktop](https://o7planning.org/ru/10283/using-GitHub-with-GitHub-desktop#:~:text=github%20Desktop%20это%20визуальный%20инструмент,%3A%2F%2Fdesktop.github.com%2F)
 4. [Алгоритм налаштування SSH з'єднання для BitBucket](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/)
 5. [Створення Git-репозиторія](https://git-scm.com/book/uk/v2/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8-Git-%D0%A1%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F-Git-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D1%96%D1%8F)
