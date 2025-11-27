@@ -1,25 +1,39 @@
-# Лабораторна робота №14. Робота з графічним клієнтом TortoiseGit
+# Лабораторна робота №14. Робота з графічним клієнтом GitHub Desktop
 
 [Перелік усіх робіт](README.md)
 
 ## Мета роботи
 
-Отримати навички роботи у графічній оболонці TortoiseGit
+Отримати навички роботи у графічному клієнті GitHub Desktop
 
 ## Теоретичні відомості
+
+Для встановлення на комп'ютер `GitHub Desktop` необідно виконати наступні дії:
+
+1. Перейти на сайт <https://desktop.github.com/>;
+2. Натиснути на кнопку **Download for Windows**:
+
+   ![GitHub Desktop](img/17-15.png)
+
+3. Зберегти файл у потрібну папку:
+
+   ![GitHub Desktop](img/17-16.png)
+
+4. Після завантаження файлу відкрити його та обрати спосіб авторизації:
+
+   ![GitHub Desktop](img/17-17.png)
+
+5. Завершити інсталювання:
+
+   ![GitHub Desktop](img/17-18.png)
+
+6. Програма готова до використання.
 
 ## Хід роботи
 
 1. Перевірити глобальні налаштування Git for Windows
-2. Завантажити та встановити на комп'ютер графічну оболонку TortoiseGit. В разі необхідності перезавантажити комп'ютер
-   ![TortoiseGit](img/014-001.jpg)
-   ![TortoiseGit](img/014-002.png)
-   ![TortoiseGit](img/014-003.jpg)
-   ![TortoiseGit](img/014-004.jpg)
-3. Перевірити наявність в контекстному меню Windows пунктів TortoiseGit
-
-   ![TortoiseGit](img/014-005.jpg)
-
+2. Завантажити та встановити на комп'ютер графічну оболонку GitHub. В разі необхідності перезавантажити комп'ютер
+3. Перевірити наявність в контекстному меню Windows пунктів GitHub
 4. За допомогою графічного інтерфейсу виконати наступні дії
    1. Клонувати віддалений репозиторій
    2. Внести зміни в репозиторій та зафіксувати їх.
@@ -38,16 +52,13 @@
 
 ## Контрольні питання
 
-1. Що таке TortoiseGit?
-2. Для чого використовують TortoiseGit?
-3. Які вам відомі аналоги TortoiseGit?
-4. Чи можливо використати графічний інтерфейс TortoiseGit для злиття гілок?
-5. TortoiseGit: в чому різниця між "Git Sync", "Fetch" і "Pull"?
+1. Що таке GitHub?
+2. Для чого використовують GitHub?
+3. Які вам відомі аналоги GitHub?
+4. Чи можливо використати графічний інтерфейс GitHub для злиття гілок?
 
 ## Довідники та додаткові матеріали
 
-1. [TortoiseGit](https://tortoisegit.org/)
-2. [TortoiseGit Manual](https://tortoisegit.org/docs/tortoisegit/)
-3. [Інструменти для роботи з Git - TortoiseGit](http://pr0git.blogspot.com/2015/03/git-tortoisegit.html)
-4. [Як завантажити TortioiseGit в Windows](https://tortoisegit.org/docs/tortoisegit/tgit-intro-install.html)
-5. [Переваги та недоліки TortoiseGit](https://coderoad.ru/6011893/)
+1. [GitHub Desktop (завантажити)](https://desktop.github.com)
+2. [GitHub Desktop документація](https://docs.github.com/en/desktop)
+3. [Як встановити та як використовувати GitHub Desktop? (відео)](https://www.youtube.com/watch?v=9oE3RhQRUbE)
